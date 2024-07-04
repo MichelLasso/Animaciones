@@ -1,0 +1,33 @@
+.contenedor{
+    padding: 3vw;
+    width: 100vw;
+    height: 40vw;
+    background-image: url(img/sky.png);
+}
+.nube1{
+    width: 15vw;
+    height: auto;
+    position: absolute;
+    margin-left: -27%;
+    animation: nube 30s   ;
+    animation-delay:1s ;
+    animation-iteration-count: infinite;
+}
+.nube2{
+    width: 15vw;
+    height: auto;
+    margin-top: 10vw;
+    position: absolute;
+    margin-left: -26%;
+    animation: nube 60s ;
+    animation-delay:3s ;
+    animation-iteration-count: infinite;
+}
+@keyframes nube{
+    0%{left: 1%;}
+    100%{left: 130%;}
+}
+@keyframes nube2{
+    0%{left: 1%;}
+    100%{left: 120%;}
+}
