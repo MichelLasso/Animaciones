@@ -1,11 +1,11 @@
 .contenedor{
+    padding: 1vw;
     width: 100vw;
     height: 25vw;
     display: flex;
     justify-content: center;
-    text-align: center;
-    overflow: hidden;
 }
+
 .img{
     width: 30vw;
     height: 36vw;
@@ -13,14 +13,14 @@
 }
 
 @keyframes muñeco {
-    0%{ background-image: url(img/Frame1.jpg);}
-    11%{ background-image: url(img/Frame2.jpg);}
-    22%{background-image: url(img/Frame3.jpg);}
-    33%{ background-image: url(img/Frame4.jpg);}
-    44%{ background-image: url(img/Frame5.jpg);}
-    55%{background-image: url(img/Frame6.jpg);}
-    66%{ background-image: url(img/Frame7.jpg);}
-    77%{ background-image: url(img/Frame8.jpg);}
-    88%{background-image: url(img/Frame9.jpg);}
-    100%{ background-image: url(img/Frame10.jpg);}
+    0%{ background-image: url(img/Frame1.jpg); background-repeat: no-repeat;}
+    11%{ background-image: url(img/Frame2.jpg);background-repeat: no-repeat;}
+    22%{background-image: url(img/Frame3.jpg);background-repeat: no-repeat;}
+    33%{ background-image: url(img/Frame4.jpg);background-repeat: no-repeat;}
+    44%{ background-image: url(img/Frame5.jpg);background-repeat: no-repeat;}
+    55%{background-image: url(img/Frame6.jpg);background-repeat: no-repeat;}
+    66%{ background-image: url(img/Frame7.jpg);background-repeat: no-repeat;}
+    77%{ background-image: url(img/Frame8.jpg);background-repeat: no-repeat;}
+    88%{background-image: url(img/Frame9.jpg); background-repeat: no-repeat;}
+    100%{ background-image: url(img/Frame10.jpg);background-repeat: no-repeat;}
 }

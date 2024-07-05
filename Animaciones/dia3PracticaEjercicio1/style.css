@@ -5,12 +5,11 @@ body{
 .letras{
     display: flex;
     justify-content: center;
-    font-size: 4rem;
-    font-family: 'Alfa Slab One', cursive;
+    font-size: 2rem;
 
 }
 .letra1{
-    color: #82c2b8;
+    color: #7cc3bb;
     animation: 5s;
     animation-name: letra1;
     animation-delay: 1s;
@@ -19,7 +18,7 @@ body{
 
 }
 .letra2{
-    color: #99b0b9;
+    color: #91b7c7;
     animation: 5.2s;
     animation-name: letra2;
     animation-delay: 1.3s;
@@ -28,7 +27,7 @@ body{
 
 }
 .letra3{
-    color: #80acac;
+    color: #7cc3bb;
     animation: 5.4s;
     animation-name: letra3;
     animation-delay: 1.5s;
@@ -39,7 +38,7 @@ body{
 
 }
 .letra4{
-    color: #99b0b9;
+    color: #91b7c7;
     animation: 5.8s;
     animation-name: letra4;
     animation-delay: 1.8s;
@@ -48,7 +47,7 @@ body{
 
 }
 .letra5{
-    color: #80acac;
+    color: #7cc3bb;
     animation: 6s;
     animation-name: letra5;
     animation-delay: 2.1s;
@@ -57,7 +56,7 @@ body{
 
 }
 .letra6{
-    color: #99b0b9;
+    color: #91b7c7;
     animation: 6.2s;
     animation-name: letra6;
     animation-delay: 2.4s;
@@ -66,7 +65,7 @@ body{
 
 }
 .letra7{
-    color: #80acac;
+    color: #7cc3bb;
     animation: 6.4s;
     animation-name: letra7;
     animation-delay: 2.7s;
