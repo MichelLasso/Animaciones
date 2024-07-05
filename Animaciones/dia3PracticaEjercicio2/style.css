@@ -3,6 +3,8 @@
     width: 100vw;
     height: 40vw;
     background-image: url(img/sky.png);
+    margin-top: -1vw;
+    margin-left: -1vw;
 }
 .nube1{
     width: 15vw;
