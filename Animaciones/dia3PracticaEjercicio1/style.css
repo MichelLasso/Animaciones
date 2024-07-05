@@ -1,0 +1,103 @@
+
+body{
+    background-color: #2d333a;
+}
+.letras{
+    font-family: 'Alfa Slab One', cursive;
+    display: flex;
+    justify-content: center;
+    font-family: letra;
+    font-size: 6rem;
+    font-family: "";
+}
+.letra1{
+    color: #82c2b8;
+    animation: 5s;
+    animation-name: letra1;
+    animation-delay: 1s;
+    transform: rotatex(88.7deg);
+}
+.letra2{
+    color: #99b0b9;
+    animation: 5.2s;
+    animation-name: letra2;
+    animation-delay: 1.3s;
+    transform: rotatex(88.7deg);
+}
+.letra3{
+    color: #80acac;
+    animation: 5.4s;
+    animation-name: letra3;
+    animation-delay: 1.5s;
+    transform: rotatex(88.7deg);
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+.letra4{
+    color: #99b0b9;
+    animation: 5.8s;
+    animation-name: letra4;
+    animation-delay: 1.8s;
+    transform: rotatex(88.7deg);
+    
+}
+.letra5{
+    color: #80acac;
+    animation: 6s;
+    animation-name: letra5;
+    animation-delay: 2.1s;
+    transform: rotatex(88.7deg);
+    
+}
+.letra6{
+    color: #99b0b9;
+    animation: 6.2s;
+    animation-name: letra6;
+    animation-delay: 2.4s;
+    transform: rotatex(88.7deg);
+    
+}
+.letra7{
+    color: #80acac;
+    animation: 6.4s;
+    animation-name: letra7;
+    animation-delay: 2.7s;
+    transform: rotatex(88.7deg);
+    
+}
+@keyframes letra1{
+    10%{transform: rotatex(0deg); }
+    50%,60%,70%{transform: rotateX(10deg);}
+    100%{transform: rotatex(180deg);}
+}
+@keyframes letra2{
+    10%{transform: rotatex(0deg); }
+    50%,60%,70%{transform: rotateX(10deg);}
+    100%{transform: rotatex(180deg);}
+}
+@keyframes letra3{
+    10%{transform: rotatex(0deg); }
+    50%,60%,70%{transform: rotateX(10deg);}
+    100%{transform: rotatex(180deg);}
+}
+@keyframes letra4{
+    10%{transform: rotatex(0deg); }
+    50%,60%,70%{transform: rotateX(10deg);}
+    100%{transform: rotatex(180deg);}
+}
+@keyframes letra5{
+    10%{transform: rotatex(0deg); }
+    50%,60%,70%{transform: rotateX(10deg);}
+    
+    100%{transform: rotatex(180deg);}
+}
+@keyframes letra6{
+    10%{transform: rotatex(0deg); }
+    50%,60%,70%{transform: rotateX(10deg);}
+    100%{transform: rotatex(180deg);}
+}
+@keyframes letra7{
+    10%{transform: rotatex(0deg); }
+    50%,60%,70%{transform: rotateX(10deg);}
+    100%{transform: rotatex(180deg);}
+}
