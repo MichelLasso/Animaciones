@@ -5,107 +5,82 @@ body{
 .letras{
     display: flex;
     justify-content: center;
-    font-size: 2rem;
-
+    font-size: 4vw;
 }
 .letra1{
     color: #7cc3bb;
     animation: 5s;
-    animation-name: letra1;
+    animation-name: letras;
     animation-delay: 1s;
-    transform: rotatex(88.7deg);
+    transform: rotatex(180deg);
     font-family: 'Alfa Slab One', cursive;
+    height: 11vw;
 
 }
 .letra2{
     color: #91b7c7;
     animation: 5.2s;
-    animation-name: letra2;
+    animation-name: letras;
     animation-delay: 1.3s;
-    transform: rotatex(88.7deg);
+    transform: rotatex(180deg);
     font-family: 'Alfa Slab One', cursive;
+    height: 11vw;
 
 }
 .letra3{
     color: #7cc3bb;
     animation: 5.4s;
-    animation-name: letra3;
+    animation-name: letras;
     animation-delay: 1.5s;
-    transform: rotatex(88.7deg);
+    transform: rotatex(180deg);
     margin-left: 1vw;
     margin-right: 1vw;
     font-family: 'Alfa Slab One', cursive;
+    height: 11vw;
 
 }
 .letra4{
     color: #91b7c7;
     animation: 5.8s;
-    animation-name: letra4;
+    animation-name: letras;
     animation-delay: 1.8s;
-    transform: rotatex(88.7deg);
+    transform: rotatex(180deg);
     font-family: 'Alfa Slab One', cursive;
+    height: 11vw;
 
 }
 .letra5{
     color: #7cc3bb;
     animation: 6s;
-    animation-name: letra5;
+    animation-name: letras;
     animation-delay: 2.1s;
-    transform: rotatex(88.7deg);
+    transform: rotatex(180deg);
     font-family: 'Alfa Slab One', cursive;
+    height: 11vw;
 
 }
 .letra6{
     color: #91b7c7;
     animation: 6.2s;
-    animation-name: letra6;
+    animation-name: letras;
     animation-delay: 2.4s;
-    transform: rotatex(88.7deg);
+    transform: rotatex(180deg);
     font-family: 'Alfa Slab One', cursive;
+    height: 11vw;
 
 }
 .letra7{
     color: #7cc3bb;
     animation: 6.4s;
-    animation-name: letra7;
+    animation-name: letras;
     animation-delay: 2.7s;
-    transform: rotatex(88.7deg);
+    transform: rotatex(180deg);
     font-family: 'Alfa Slab One', cursive;
+    height: 11vw;
 
 }
-@keyframes letra1{
-    10%{transform: rotatex(0deg); }
-    50%,60%,70%{transform: rotateX(10deg);}
-    100%{transform: rotatex(180deg);}
-}
-@keyframes letra2{
-    10%{transform: rotatex(0deg); }
-    50%,60%,70%{transform: rotateX(10deg);}
-    100%{transform: rotatex(180deg);}
-}
-@keyframes letra3{
-    10%{transform: rotatex(0deg); }
-    50%,60%,70%{transform: rotateX(10deg);}
-    100%{transform: rotatex(180deg);}
-}
-@keyframes letra4{
-    10%{transform: rotatex(0deg); }
-    50%,60%,70%{transform: rotateX(10deg);}
-    100%{transform: rotatex(180deg);}
-}
-@keyframes letra5{
-    10%{transform: rotatex(0deg); }
-    50%,60%,70%{transform: rotateX(10deg);}
-    
-    100%{transform: rotatex(180deg);}
-}
-@keyframes letra6{
-    10%{transform: rotatex(0deg); }
-    50%,60%,70%{transform: rotateX(10deg);}
-    100%{transform: rotatex(180deg);}
-}
-@keyframes letra7{
-    10%{transform: rotatex(0deg); }
-    50%,60%,70%{transform: rotateX(10deg);}
+@keyframes letras{
+    0%{transform: rotatex(90deg); }
+    50%{transform: rotateX(0deg);}
     100%{transform: rotatex(180deg);}
 }
