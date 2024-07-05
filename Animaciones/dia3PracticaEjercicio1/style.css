@@ -3,12 +3,11 @@ body{
     background-color: #2d333a;
 }
 .letras{
-    font-family: 'Alfa Slab One', cursive;
     display: flex;
     justify-content: center;
-    font-family: letra;
-    font-size: 6rem;
-    font-family: "";
+    font-size: 4rem;
+    font-family: 'Alfa Slab One', cursive;
+
 }
 .letra1{
     color: #82c2b8;
@@ -16,6 +15,8 @@ body{
     animation-name: letra1;
     animation-delay: 1s;
     transform: rotatex(88.7deg);
+    font-family: 'Alfa Slab One', cursive;
+
 }
 .letra2{
     color: #99b0b9;
@@ -23,6 +24,8 @@ body{
     animation-name: letra2;
     animation-delay: 1.3s;
     transform: rotatex(88.7deg);
+    font-family: 'Alfa Slab One', cursive;
+
 }
 .letra3{
     color: #80acac;
@@ -32,6 +35,8 @@ body{
     transform: rotatex(88.7deg);
     margin-left: 1vw;
     margin-right: 1vw;
+    font-family: 'Alfa Slab One', cursive;
+
 }
 .letra4{
     color: #99b0b9;
@@ -39,7 +44,8 @@ body{
     animation-name: letra4;
     animation-delay: 1.8s;
     transform: rotatex(88.7deg);
-    
+    font-family: 'Alfa Slab One', cursive;
+
 }
 .letra5{
     color: #80acac;
@@ -47,7 +53,8 @@ body{
     animation-name: letra5;
     animation-delay: 2.1s;
     transform: rotatex(88.7deg);
-    
+    font-family: 'Alfa Slab One', cursive;
+
 }
 .letra6{
     color: #99b0b9;
@@ -55,7 +62,8 @@ body{
     animation-name: letra6;
     animation-delay: 2.4s;
     transform: rotatex(88.7deg);
-    
+    font-family: 'Alfa Slab One', cursive;
+
 }
 .letra7{
     color: #80acac;
@@ -63,7 +71,8 @@ body{
     animation-name: letra7;
     animation-delay: 2.7s;
     transform: rotatex(88.7deg);
-    
+    font-family: 'Alfa Slab One', cursive;
+
 }
 @keyframes letra1{
     10%{transform: rotatex(0deg); }
