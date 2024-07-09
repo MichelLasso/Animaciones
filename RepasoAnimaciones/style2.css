@@ -1,0 +1,51 @@
+.contenedorPrincipal{
+    width: 100vw;
+    height: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor{
+    background-color: #efefef;
+    border-radius: 4vw;
+    width: 30vw;
+    height: 30vw;
+    box-shadow: 0vw 2vw 2vw  #949494;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circuloAzul{
+    background-color: #2692ec ;
+    border-radius: 50%;
+    width: 25vw;
+    height: 25vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.manija{
+    flex-direction: column;
+    background-color: #949494;
+    border-radius: 50%;
+    width: 23vw;
+    height: 23vw;
+}
+.manija1{
+    transform: rotate(0deg);
+    border-left: 2vw solid transparent;
+    border-right: 2vw solid transparent;
+    border-bottom: 10vw solid red;
+    margin-left: 9vw;
+}
+.manija2{
+    transform: rotate(0deg);
+    border-left: 2vw solid transparent;
+    border-right: 2vw solid transparent;
+    border-bottom: 10vw solid white;
+    margin-left: 6vw;
+
+}
+.manija1:hover{
+    transform: rotate(380deg);
+}
