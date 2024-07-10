@@ -1,0 +1,38 @@
+body{
+    background-color: red;
+}
+.contenedorPrincipal {
+    width: 100vw;
+    height: 90vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Contenedor{
+    background-color: aliceblue;
+    width: 60vw;
+    height: 10vw;
+}
+.checkbox, .icon{
+    margin-left: 55vw;
+    cursor: pointer;
+    width: 3vw;
+    height: 2vw;
+}
+.checkbox{
+    opacity: 0;
+}
+.icon, .icon2{
+    pointer-events: none;
+}
+.texto1{
+    font-size: 3vw;
+    width: 5vw;
+    height: 5vw;
+    margin-top: -3vw;
+    margin-left: 3vw;
+}
+
+.checkbox:checked ~ .Contenedor{
+    height: 20vw;
+}

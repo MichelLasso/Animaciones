@@ -18,34 +18,43 @@
 .circuloAzul{
     background-color: #2692ec ;
     border-radius: 50%;
+    border: 1px dashed white ;
     width: 25vw;
     height: 25vw;
     justify-content: center;
     align-items: center;
     display: flex;
+    overflow: hidden;
 }
 .manija{
-    flex-direction: column;
-    background-color: #949494;
     border-radius: 50%;
     width: 23vw;
     height: 23vw;
+    transform: rotate(60deg);
+    overflow: hidden;
 }
 .manija1{
-    transform: rotate(0deg);
-    border-left: 2vw solid transparent;
-    border-right: 2vw solid transparent;
-    border-bottom: 10vw solid red;
-    margin-left: 9vw;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    width: 2vw;
+    height: 11vw;
+    margin-left: 10vw;
+    background-color: red;
+    
 }
 .manija2{
-    transform: rotate(0deg);
-    border-left: 2vw solid transparent;
-    border-right: 2vw solid transparent;
-    border-bottom: 10vw solid white;
-    margin-left: 6vw;
-
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    width: 2vw;
+    height: 12vw;
+    margin-left: 10vw;
+    background-color: white;
 }
-.manija1:hover{
-    transform: rotate(380deg);
+.manija:hover{
+    animation-name: manijas;
+    animation-delay: 0s;
+    animation-duration: 3s;
+}
+
+@keyframes manijas {
+    30%{transform: rotate(20deg);}
+    100%{transform: rotate(420deg);}
 }
