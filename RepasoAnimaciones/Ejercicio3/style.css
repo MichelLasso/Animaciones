@@ -19,3 +19,6 @@ body{
     overflow: hidden;
     transition-duration: 1s;
 }
+.uno:checked + .contenedor1{
+    
+}
