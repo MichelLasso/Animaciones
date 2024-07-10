@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: black;
+}
+.contenedor{
+    width: 100vw;
+    height: 100vw;
+    border: 1px solid red;
+}
+.cont1{
+    width: 100vw;
+    height: 50vw;
+    border: 1px solid white;
+}
+.menu{
+    width: 100vw;
+    height: 5vw;
+    display: flex;
+}
+.menu1, .menu2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu1{
+    color: white;
+    width: 40vw;
+    font-size: 2vw;
+}
+.menu2{
+    width: 60vw;
+    display: flex;
+    font-size: 1.4vw;
+}
+.texto1, .texto{
+    text-decoration: none;
+    color: white;
+}    
+.texto1{
+    margin-left: 2vw;
+}
