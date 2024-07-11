@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-boxi;
+    font-family: letra;
+}
+@font-face {
+    font-family: letra;
+    src: url(fonts/Kinder-Child.ttf);
+}
+body{
+    background-image: url(img/melody.png);
+}
+.navBar{
+    background-color: rgb(252, 237, 237);
+    height: 69px;
+    position: relative;
+    text-align: center;
+}
+
+.checkbox, .icon, .icon2{
+    position: absolute;
+    right: 12px;
+    top: 4px;
+    cursor: pointer;
+    width: 80px;
+    height: 60px;
+}
+.checkbox{
+    opacity: 0;
+}
+.icon, .icon2{
+    pointer-events: none;
+}
+.icon2{
+    display: none;
+}
+.checkbox:checked ~ .icon{
+    display: none;
+}
+.checkbox:checked ~ .icon2{
+    display: block;
+}
+.menu{
+    width: 130px;
+    position: absolute;
+    margin-top: 21px;
+    top: -130px;
+    right: 0px;
+    transition: 300ms;
+    z-index: -1;
+}
+.menu li{
+    list-style: none;
+}
+.menu li a{
+    text-decoration: none;
+    color: rgb(155, 155, 192);
+    background-color: rgb(220, 233, 232);
+    display: block;
+    padding:8px ;
+}
+.menu li a:hover{
+    background-color: pink;
+}
+.checkbox:checked ~ .menu{
+    top: 48px;
+}
+.texto{
+    color: rgb(212, 155, 155);
+    font-size: 57px;
+}
