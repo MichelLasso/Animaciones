@@ -21,7 +21,7 @@ En este repositorio encontrarás 4 carpetas que al abrirlas tendrán una divisi�
 ## Explicación 
 *En la primera carpeta de la tabla* podrás encontrar 4 trabajos con la similitud de que son animaciones y cumplen con su repectivo archivo HTML y CSS, y una carpeta adicional para las imagenes y otra para contener el tipo de fuente utilizado.
 
-![alt text](image-4.png)
+![alt text](image.png)
 
 *En la segunda carpeta de la tabla* encontrás otros archivos de animación, separados por 3 carpetas con su respectivo archivo HTML,CSS y una carpeta de imágenes y otra para fuentes.
 
